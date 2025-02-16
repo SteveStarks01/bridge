@@ -1,0 +1,1 @@
+export { generateMetadata, viewport } from "./metadata";
