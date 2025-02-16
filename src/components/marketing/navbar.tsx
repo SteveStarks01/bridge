@@ -1,9 +1,8 @@
 "use client";
 
-import { Building2, Users2, Briefcase, Phone, MessageSquare } from "lucide-react";
+import { Building2, Users2, Briefcase } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import Icons from "../global/icons";
 import Wrapper from "../global/wrapper";
 import { Button } from "../ui/button";
 import MobileMenu from "./mobile-menu";

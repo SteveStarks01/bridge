@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Quote, MessageSquare } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 import Container from "../global/container";
 import { MagicCard } from "../ui/magic-card";
 

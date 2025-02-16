@@ -30,7 +30,7 @@ const Companies = () => {
                         Trusted by <span className="bg-gradient-to-r from-[#106861] to-[#0e8177] bg-clip-text text-transparent">Industry Leaders</span>
                     </h4>
                     <p className="text-muted-foreground mt-4 text-center max-w-2xl">
-                        Join forward-thinking companies that have transformed their teams with Bridge's talent solutions
+                        Join forward-thinking companies that have transformed their teams with Bridge&apos;s talent solutions
                     </p>
                 </div>
             </Container>

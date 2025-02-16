@@ -12,7 +12,7 @@ const Analysis = () => {
                         Real-time talent <br /><span className="bg-gradient-to-r from-[#106861] to-[#0e8177] bg-clip-text text-transparent">performance metrics</span>
                     </h2>
                     <p className="text-base md:text-lg text-accent-foreground/80 mt-4">
-                        Track your team's performance, productivity, and engagement with our comprehensive analytics dashboard.
+                        Track your team&apos;s performance, productivity, and engagement with our comprehensive analytics dashboard.
                     </p>
                 </div>
             </Container>

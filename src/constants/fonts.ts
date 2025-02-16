@@ -1,7 +1,7 @@
-import { Inter, DM_Sans, Instrument_Serif } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import localFont from "next/font/local";
 
-export const heading = localFont({
+export const base = localFont({
     src: [
         {
             path: '../../public/fonts/Satoshi-Light.woff2',
@@ -14,13 +14,13 @@ export const heading = localFont({
             style: 'normal',
         },
         {
-            path: '../../public/fonts/Satoshi-Medium.woff2', 
+            path: '../../public/fonts/Satoshi-Medium.woff2',
             weight: '500',
             style: 'normal',
         },
         {
             path: '../../public/fonts/Satoshi-Bold.woff2',
-            weight: '700', 
+            weight: '700',
             style: 'normal',
         },
         {
@@ -29,16 +29,17 @@ export const heading = localFont({
             style: 'normal',
         }
     ],
-    variable: '--font-heading'
+    variable: '--font-base'
 });
 
-export const base = Inter({
+export const heading = Montserrat({
     subsets: ["latin"],
-    variable: "--font-base",
+    variable: "--font-heading",
+    weight: ["400", "500", "600", "700", "800"],
 });
 
-export const subheading = Instrument_Serif({
+export const subheading = Montserrat({
     subsets: ["latin"],
-    weight: ["400"],
     variable: "--font-subheading",
+    weight: ["400", "500", "600", "700", "800"],
 });

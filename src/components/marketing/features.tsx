@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "@/lib";
 import { Building2, Clock, Briefcase, Shield, Users2, LineChart } from "lucide-react";
 import Container from "../global/container";
 import { MagicCard } from "../ui/magic-card";

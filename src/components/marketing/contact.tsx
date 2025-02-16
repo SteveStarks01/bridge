@@ -3,16 +3,8 @@ import { Building2, Mail, Phone, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Container } from "@/components/ui/container";
+import Container from "../global/container";
 import { MagicCard } from "@/components/ui/magic-card";
-
-interface MagicCardProps {
-    gradientFrom: string;
-    gradientTo: string;
-    gradientColor: string;
-    className?: string;
-    children: React.ReactNode;
-}
 
 const Contact: React.FC = () => {
     return (
@@ -23,7 +15,7 @@ const Contact: React.FC = () => {
                         Ready to <span className="bg-gradient-to-r from-blue-600 to-sky-400 bg-clip-text text-transparent">Get Started</span>?
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Fill out the form below and we'll get back to you within 24 hours to discuss your needs
+                        Fill out the form below and we&apos;ll get back to you within 24 hours to discuss your needs
                     </p>
                 </div>
             </Container>
